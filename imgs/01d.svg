@@ -38,10 +38,10 @@
             -o-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
 
-            -moz-animation-duration: 12s;
-            -webkit-animation-duration: 12s;
-            -o-animation-duration: 12s;
-            animation-duration: 12s;
+            -moz-animation-duration: 48s;
+            -webkit-animation-duration: 48s;
+            -o-animation-duration: 48s;
+            animation-duration: 48s;
 
         }
 
@@ -53,33 +53,6 @@
             animation-name: rotate;
         }
 
-        .climacon_component-stroke_sunSpoke {
-
-            -webkit-animation-name: scale;
-            -moz-animation-name: scale;
-            -o-animation-name: scale;
-            animation-name: scale;
-
-            -webkit-animation-direction: alternate;
-            -moz-animation-direction: alternate;
-            -o-animation-direction: alternate;
-            animation-direction: alternate;
-
-            -webkit-animation-duration: 3s;
-            -moz-animation-duration: 3s;
-            -o-animation-duration: 3s;
-            animation-duration: 3s;
-
-        }
-
-        .climacon_component-stroke_sunSpoke:nth-child(even) {
-
-            -webkit-animation-delay: 3s;
-            -moz-animation-delay: 3s;
-            -o-animation-delay: 3s;
-            animation-delay: 3s;
-
-        }
 
         @-webkit-keyframes rotate{
             0%{
@@ -120,41 +93,6 @@
             }   
         }
 
-        @-webkit-keyframes scale{
-            0%{
-                -webkit-transform: scale(1,1);
-            }
-            100%{
-                -webkit-transform: scale(.5,.5);
-            }   
-        }
-
-        @-moz-keyframes scale{
-            0%{
-                -moz-transform: scale(1,1);
-            }
-            100%{
-                -moz-transform: scale(.5,.5);
-            }   
-        }
-
-        @-o-keyframes scale{
-            0%{
-                -o-transform: scale(1,1);
-            }
-            100%{
-                -o-transform: scale(.5,.5);
-            }   
-        }
-
-        @keyframes scale{
-            0%{
-                transform: scale(1,1);
-            }
-            100%{
-                transform: scale(.5,.5);
-            }   
-        }
 
     ]]></style>
     <clipPath id="sunFillClip">

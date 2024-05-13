@@ -33,10 +33,10 @@
             -o-animation-timing-function: linear;
             animation-timing-function: linear;
 
-            -webkit-animation-duration: 12s;
-            -moz-animation-duration: 12s;
-            -o-animation-duration: 12s;
-            animation-duration: 12s;
+            -webkit-animation-duration: 48s;
+            -moz-animation-duration: 48s;
+            -o-animation-duration: 48s;
+            animation-duration: 48s;
 
             -webkit-animation-direction: normal;
             -moz-animation-direction: normal;
@@ -62,59 +62,15 @@
             -o-animation-timing-function: ease-out, linear;
             animation-timing-function: ease-out, linear;
 
-            -webkit-animation-delay: 0, 3s;
-            -moz-animation-delay: 0, 3s;
-            -o-animation-delay: 0, 3s;
-            animation-delay: 0, 3s;
-
-            -webkit-animation-duration: 3s, 12s;
-            -moz-animation-duration: 3s, 12s;
-            -o-animation-duration: 3s, 12s;
-            animation-duration: 3s, 12s;
-
+            -webkit-animation-duration: 48s;
+            -moz-animation-duration: 48s;
+            -o-animation-duration: 48s;
+            animation-duration: 48s;
         }
 
-        .climacon_component-stroke_sunSpoke {
-            fill-opacity: 0;
-            -webkit-animation-name: fillOpacity, scale;
-            -moz-animation-name: fillOpacity, scale;
-            -o-animation-name: fillOpacity, scale;
-            animation-name: fillOpacity, scale;
 
-            -webkit-animation-direction: alternate;
-            -moz-animation-direction: alternate;
-            -o-animation-direction: alternate;
-            animation-direction: alternate;
 
-            -webkit-animation-iteration-count: 1, infinite;
-            -moz-animation-iteration-count: 1, infinite;
-            -o-animation-iteration-count: 1, infinite;
-            animation-iteration-count: 1, infinite;
 
-            -webkit-animation-delay: 3s, 0;
-            -moz-animation-delay: 3s, 0;
-            -o-animation-delay: 3s, 0;
-            animation-delay: 3s, 0;
-
-            -webkit-animation-duration: 3s;
-            -moz-animation-duration: 3s;
-            -o-animation-duration: 3s;
-            animation-duration: 3s;
-
-            -webkit-animation-fill-mode: both;
-            -moz-animation-fill-mode: both;
-            -o-animation-fill-mode: both;
-            animation-fill-mode: both;
-
-        }
-
-        .climacon_component-stroke_sunSpoke:nth-child(even) {
-            -webkit-animation-delay: 3s;
-            -moz-animation-delay: 3s;
-            -o-animation-delay: 3s;
-            animation-delay: 3s;
-
-        }
         @-webkit-keyframes rotate{
             0%{
                 -webkit-transform: rotate(0);
@@ -153,41 +109,9 @@
             }   
         }
 
-        @-webkit-keyframes scale{
-            0%{
-                -webkit-transform: scale(1,1)
-            }
-            100%{
-                -webkit-transform: scale(.5,.5)
-            }   
-        }
 
-        @-moz-keyframes scale{
-            0%{
-                -moz-transform: scale(1,1)
-            }
-            100%{
-                -moz-transform: scale(.5,.5)
-            }   
-        }
 
-        @-o-keyframes scale{
-            0%{
-                -o-transform: scale(1,1)
-            }
-            100%{
-                -o-transform: scale(.5,.5)
-            }   
-        }
 
-        @keyframes scale{
-            0%{
-                transform: scale(1,1)
-            }
-            100%{
-                transform: scale(.5,.5)
-            }   
-        }
 
         @-webkit-keyframes behindCloudMove {
           0% {
