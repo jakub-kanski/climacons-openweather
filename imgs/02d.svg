@@ -203,6 +203,17 @@
         }
 
     ]]></style>
+        <defs>
+      <mask id="hole">
+        <rect width="100%" height="100%" fill="white"/>
+                       <circle
+                class="climacon_component climacon_component-fill climacon_component-fill_sunBody"
+                fill="black"
+                cx="58.033"
+                cy="41.612" r="7.999"
+                />
+      </mask>
+    </defs>
     <g class="climacon_iconWrap climacon_cloudSunFill-iconWrap">
         <g class="climacon_componentWrap climacon_componentWrap-sun climacon_componentWrap-sun_cloud">
             <g class="climacon_componentWrap climacon_componentWrap_sunSpoke">
@@ -231,18 +242,12 @@
                 class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-north"
                 d="M72.174,52.925l2.828,2.828c0.779,0.78,0.779,2.047,0,2.827c-0.781,0.781-2.049,0.781-2.828,0l-2.828-2.827c-0.781-0.781-0.781-2.048,0-2.828C70.125,52.144,71.391,52.144,72.174,52.925z"/>
             </g>
-            <g class="climacon_componentWrap climacon_componentWrap-sunBody">
+            <g class="climacon_componentWrap climacon_componentWrap-sunBody" mask="url(#hole)">
                 <circle
                 class="climacon_component climacon_component-stroke climacon_component-stroke_sunBody"
                 cx="58.033"
                 cy="41.612"
                 r="11.999"
-                />
-                <circle
-                class="climacon_component climacon_component-fill climacon_component-fill_sunBody"
-                fill="#FFFFFF"
-                cx="58.033"
-                cy="41.612" r="7.999"
                 />
             </g>
         </g>
